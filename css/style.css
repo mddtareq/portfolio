@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.top-section .half-width h1{
+    margin: 0;
+    padding: 0;
+}
+.orange-color{
+    color: rgb(240, 110, 132);
+}
+.half-width
+{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img
+{
+     width: 100%;    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(216, 74, 128),rgb(240, 110, 132));
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.top-section{
+    background: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.biography-section{
+    background: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.latest-work-section{
+    background: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+    clear: both;
+}
+.third-width{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding: 2%;
+    
+}
+.third-width img
+{
+    width: 100%;   
+}
+.client-section{
+    text-align: center;
+    background: url("../images/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.biography-section #center{
+    margin-top: 60px;
+}
+.top-section #center{
+    margin-top: 60px;
+}
+
+.message-box{
+   width: 50%;
+   margin: auto;
+   padding-bottom: 5px;
+   color: white;
+   border-radius: 5px;
+   background-color:rgb(240, 110, 132) ;
+}
+.text-center{
+    text-align: center;
+}
+.client-section h3,h6{
+    margin: 0;
+    padding: 1px;
+}
