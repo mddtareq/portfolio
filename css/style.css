@@ -1,12 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background: url("../images/biography-bg.png");
+    background-size: cover;
 }
 h1{
     font-size: 35px;
 }
 h2{
-    font-size: 30px;
+   margin: 0;
 }
 p{
     color: dimgray;
@@ -20,14 +22,14 @@ p{
 }
 .half-width
 {
-    width: 40%;
+    width: 33%;
     float: left;
     margin-left: 5%;
-    padding-left: 3%;
+    padding: 5%;
 }
 .half-width img
 {
-     width: 100%;    
+     width: 100%; 
 }
 .link-button{
     text-decoration: none;
@@ -43,24 +45,49 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 500px;
+    padding-bottom: 50px;
+    clear: both;
 }
 .biography-section{
     background: url("../images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 500px;
+    padding-bottom: 50px;
+    clear: both;
 }
 .latest-work-section{
     background: url("../images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 250px;
+    padding-bottom: 80px;
+    clear: both;
 }
-section{
-    height: 500px;
+.experience-section{
+    text-align: center;
+    background: url("../images/header-bg.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    padding-bottom: 100px;
+    clear: both;
+}
+.client-section{
+    text-align: center;
+    background: url("../images/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
     padding-bottom: 50px;
     clear: both;
 }
+
 .third-width{
     width: 25%;
     float: left;
@@ -72,13 +99,7 @@ section{
 {
     width: 100%;   
 }
-.client-section{
-    text-align: center;
-    background: url("../images/footer-bg.png");
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
+
 .biography-section #center{
     margin-top: 60px;
 }
@@ -89,7 +110,8 @@ section{
 .message-box{
    width: 50%;
    margin: auto;
-   padding-bottom: 5px;
+   padding-top: 1px;
+   padding-bottom: 10px;
    color: white;
    border-radius: 5px;
    background-color:rgb(240, 110, 132) ;
@@ -100,4 +122,25 @@ section{
 .client-section h3,h6{
     margin: 0;
     padding: 1px;
+}
+.half-width h3{
+    margin: 0;
+    padding: 0;
+}
+.devoloper{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+    overflow: auto;
+}
+#full-stak{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#front-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
